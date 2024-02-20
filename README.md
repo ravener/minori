@@ -7,17 +7,20 @@ The popular loggers were too big for my needs, i just needed basic console I/O w
 It uses ANSI colors for fancy output but it will work on Windows too, Thanks to [go-colorable](https://github.com/mattn/go-colorable)
 
 It is used in my own projects as it is specifically made for my uses but it's documented and open-sourced if anyone else wants to use it as well.
+
 ## Install
+
 ```sh
-$ go get github.com/pollen5/minori
+$ go get github.com/ravener/minori
 ```
 
 ## Usage
+
 ```go
 package main
 
 import (
-  "github.com/pollen5/minori"
+  "github.com/ravener/minori"
 )
 
 var logger = minori.GetLogger("app")
@@ -30,6 +33,7 @@ func main() {
   }
 }
 ```
+
 It has the basic levels of logging (in order of verbosity):
 - Debug
 - Info

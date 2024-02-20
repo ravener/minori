@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/pollen5/minori"
+	"github.com/ravener/minori"
 )
 
 var logger = minori.GetLogger("app")
